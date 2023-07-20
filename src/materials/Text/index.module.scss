@@ -1,0 +1,10 @@
+.text {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: default;
+  border-radius: 5px;
+  user-select: none;
+  &:hover {
+    background-color: #fefefe;
+  }
+}

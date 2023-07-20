@@ -1,0 +1,44 @@
+@import "variables";
+
+.App {
+  text-align: center;
+  header {
+    height: $header-height;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: $header-background;
+  }
+  #left {
+    width: $left-width;
+    position: fixed;
+    left: 0;
+    top: $header-height;
+    bottom: $footer-height;
+    background-color: $left-color;
+  }
+  main {
+    position: fixed;
+    top: $header-height;
+    bottom: $footer-height;
+    left: $left-width;
+    right: $right-width;
+  }
+  #right {
+    position: fixed;
+    width: $right-width;
+    right: 0;
+    top: $header-height;
+    bottom: $footer-height;
+    background: $right-background;
+  }
+  footer {
+    position: fixed;
+    height: $footer-height;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: $footer-background;
+  }
+}
